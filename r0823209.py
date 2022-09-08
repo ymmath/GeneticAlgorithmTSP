@@ -9,18 +9,11 @@ class r0823209:
 
     def __init__(self):
         self.reporter = Reporter.Reporter(self.__class__.__name__)
-        self.populationSize = 1500  # doesn't matter anymore, it is determined as a function of the length of the distance matrix
+        self.populationSize = 1500  # isn't used anymore, it is determined as a function of the length of the distance matrix
         self.elitismRate = 0.05
         self.tournamentSize = 3
         self.mutationRate = 0.025
         self.nnPercent = 0.1  # Proportion of the initial population that will be created heuristically (ignored if it is larger than the number of cities)
-
-    # helperfunctie voor mezelf
-    def distanceM(self, filename):
-        file = open(filename)
-        distanceMatrix = np.loadtxt(file, delimiter=",")
-        file.close()
-        return distanceMatrix
 
     # The evolutionary algorithm's main loop
     def optimize(self, filename):
