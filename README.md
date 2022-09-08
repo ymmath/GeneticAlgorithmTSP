@@ -27,11 +27,11 @@ building blocks of **initialization**, **selection**, **variation**,
 for a portion of the **initialization** and a modification of the _2-opt_ for 
 different stages in the algorithm. 
 
-In a nutshell, the flowchart below summarizes my implementation and for more details regarding, please take a look at the project [report](https://github.com/ymmath/GeneticAlgorithmTSP/blob/main/ProjectReport.pdf):
+In a nutshell, the flowchart below summarizes my implementation:
 
-![](C:\Users\yash_\Downloads\Flowcharts.png)
+![](https://github.com/ymmath/GeneticAlgorithmTSP/blob/main/Flowcharts.png)
 
-
+For more details, please take a look at the project [report](https://github.com/ymmath/GeneticAlgorithmTSP/blob/main/ProjectReport.pdf).
 ### Benchmarks
 
 To compare how this implementation of the GA fares (performance results in the [report](https://github.com/ymmath/GeneticAlgorithmTSP/blob/main/ProjectReport.pdf)), a greedy heuristic is applied for each of the tours with the results shown below:
